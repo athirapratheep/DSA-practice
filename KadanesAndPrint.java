@@ -54,3 +54,19 @@ public class KadanesAlgorithm {
         sc.close();
     }
 }
+
+//sample i/o
+// Enter the size of the array: 
+// 7
+// Enter the elements of the array: 
+// 2
+// 3
+// -8
+// 7
+// -1
+// 2
+// 3
+
+// The maximum sum subarray is: 
+// 7 -1 2 3 
+// The maximum subarray sum is: 11
