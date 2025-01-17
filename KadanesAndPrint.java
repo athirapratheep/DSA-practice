@@ -5,11 +5,6 @@ public class KadanesAlgorithm {
         int maxi=Integer.MIN_VALUE;
         int sum=0;
         int temp=0,start=0,end=0;
-        // for(int i=0;i<arr.length;i++)
-        // {
-        //     sum=Math.max(sum+arr[i],arr[i]);
-        //     maxi=Math.max(maxi,sum);
-        // }
         List <Integer> result= new ArrayList<>();
         for(int i=0;i<arr.length;i++)
         {
