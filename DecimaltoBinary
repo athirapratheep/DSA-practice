@@ -1,0 +1,19 @@
+import java.util.*;
+public class DecimaltoBinary {
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a decimal number:");
+        int n=sc.nextInt();
+        //System.out.println("Binary representation of "+n+" is "+Integer.toBinaryString(n));// with function
+        String binary="";
+        while(n>0)
+        {
+            int rem=n%2;
+            binary=rem+binary;
+            n=n/2;
+        }
+        System.out.println(binary);
+        sc.close();
+    }
+}
