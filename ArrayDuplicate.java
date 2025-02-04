@@ -9,7 +9,7 @@ public class ArrayDuplicate{
             hmap.put(arr[i],hmap.getOrDefault(arr[i],0)+1);
         }
         for(Map.Entry<Integer,Integer> entry: hmap.entrySet())
-        {defefg
+        {
             if(entry.getValue() > 1)
             {
                 duplicates.add(entry.getKey());
