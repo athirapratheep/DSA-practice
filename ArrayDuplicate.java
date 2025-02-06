@@ -5,7 +5,7 @@ public class ArrayDuplicate{
         Map<Integer,Integer> hmap=new HashMap<>();
         List<Integer> duplicates=new ArrayList<>();
         for(int i=0;i<arr.length;i++)
-        {
+        {jhg
             hmap.put(arr[i],hmap.getOrDefault(arr[i],0)+1);
         }
         for(Map.Entry<Integer,Integer> entry: hmap.entrySet())
