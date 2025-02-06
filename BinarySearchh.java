@@ -6,7 +6,7 @@ public class BinarySearchh {
         int low=0;
         int high=arr.length-1;
         while(low<=high)
-        {knono
+        {
             int mid=low+(high-low)/2;
             if(arr[mid]==key)
             {
