@@ -12,7 +12,7 @@ public class BinarySearchh {
             {
                 return mid;
             }
-            else if(arr[mid]>key)
+            else if(arr[mid]>key)fjdlv
             {
                 high=mid-1;
             }
