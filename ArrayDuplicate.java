@@ -8,7 +8,7 @@ public class ArrayDuplicate{
         for(int i=0;i<arr.length;i++)
         {
             hmap.put(arr[i],hmap.getOrDefault(arr[i],0)+1);
-        }cvcvfv v
+        }
         for(Map.Entry<Integer,Integer> entry: hmap.entrySet())
         {
             if(entry.getValue() > 1)
