@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class ArrayDuplicate{
     static List<Integer> findDuplicates(Integer[] arr)
     {
