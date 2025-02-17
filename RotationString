@@ -1,0 +1,25 @@
+package Practice_java;
+import java.util.*;
+public class RotationString {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s1 = sc.nextLine();
+        String s2 = sc.nextLine();
+        boolean ans=checkrotate(s1,s2);
+        System.out.println(ans);
+        sc.close();
+        
+    }
+    public static boolean checkrotate(String s1,String s2)
+    {
+        for(int i=0;i<s1.length();i++)
+        {
+            String s3=s1.substring(i)+s1.substring(0,i);
+            if(s3.equals(s2))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+}
