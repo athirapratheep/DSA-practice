@@ -1,6 +1,6 @@
 package Practice_java;
 import java.util.*;
-public class AnagramCheck {
+public class AnagramCheck {k
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first string:");
