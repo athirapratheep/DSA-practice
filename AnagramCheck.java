@@ -13,6 +13,7 @@ public class AnagramCheck {
         sc.close();
         boolean val=k_anagrams(str1, str2, k);
         System.out.println(val); 
+        
     }
     public static boolean k_anagrams(String s1,String s2,int k)
     {
