@@ -9,6 +9,8 @@ public class AnagramCheck {
         System.out.println("Enter the second string:");
         String str2 = sc.nextLine();
         System.out.println("Enter the character value k:");
+
+        
         int k = sc.nextInt();
         sc.close();
         boolean val=k_anagrams(str1, str2, k);
