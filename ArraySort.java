@@ -23,6 +23,6 @@ public class ArraySort {
         {
             System.out.print(arr[i]+" ");
         }
-        sc.close();
+        
     }
 }
