@@ -14,7 +14,7 @@ public class Factorial {
         {
             return 1;
         }
-        else
+        else{
             return n*fact(n-1);
         }
     }
