@@ -1,0 +1,39 @@
+package Practice_java;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class occurencehalf {
+    public static void main(String[] args)
+    {
+        Scanner scc=new Scanner(System.in);
+        int size=scc.nextInt();
+        int[] arr=new int[size];
+        for(int i=0;i<size;i++)
+        {
+            arr[i]=scc.nextInt();
+        }
+        int element=occur(arr);
+        System.out.println("Majority element: "+element);
+        scc.close();
+    }
+    public static int occur(int[] arr)
+    {
+        int n=arr.length;
+        HashMap <Integer,Integer> sc=new HashMap<>();
+        for(int i=0;i<n;i++)
+        {
+            int value=sc.getOrDefault(arr[i], 0);
+            sc.put(arr[i], value+1);
+        }
+        for(Map.Entry<Integer,Integer> it:sc.entrySet())
+        {
+            if(it.getValue()>(n/2))
+            {
+                return it.getKey();
+            }
+        }
+        return -1;
+    }
+}
