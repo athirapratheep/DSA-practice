@@ -7,7 +7,7 @@ public class endZero {
         int size=sc.nextInt();
         int[] arr=new int[size];
         for(int i=0;i<size;i++)
-        {
+        
             arr[i]=sc.nextInt();
         }
         int[] ans=moveZero(size,arr);
